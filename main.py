@@ -32,7 +32,7 @@ def attack_pok(message):
         else:
             bot.send_message(message.chat.id, "Сражаться можно только с покемонами")
     else:
-            bot.send_message(message.chat.id, "Чтобы атаковать, нужно ответить на сообщения того, кого хочешь атаковать")     
+        bot.send_message(message.chat.id, "Чтобы атаковать, нужно ответить на сообщения того, кого хочешь атаковать")     
 
 @bot.message_handler(commands=['feed'])
 def feed(message):
